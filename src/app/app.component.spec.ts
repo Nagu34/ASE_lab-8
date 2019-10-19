@@ -19,13 +19,13 @@ describe('AppComponent', () => {
   it(`should have as title 'untitled2'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('untitled2');
+    expect(app.title).toEqual('Assignment');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('untitled2 app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('Assignment app is running!');
   });
 });

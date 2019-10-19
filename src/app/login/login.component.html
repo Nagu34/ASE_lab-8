@@ -1,0 +1,16 @@
+<div class="col-3 center boxstyle">
+  <form class="new">
+
+      <input class="form-group" type="text"  name="username" placeholder="User name" [(ngModel)]="username">
+
+
+      <input class="form-group" type="password"  name="password" placeholder="Password" [(ngModel)]="password">
+
+    <div *ngIf="InvalidUser" class="form-group">
+      <span style="color: red"> *enter something</span>
+    </div>
+
+      <button class="form-group"  align="center" type="submit"  (click)="login()">Login</button>
+
+  </form>
+</div>

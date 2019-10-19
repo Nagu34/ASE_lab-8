@@ -1,0 +1,18 @@
+
+
+<div class="center">
+  <div>
+    <button class="btn btn-success" (click)="getDetails()">Payload Details</button>
+  </div>
+  <div *ngIf="UserInfo" class="boxstyle" style="color: white; font-weight: bold">
+    <style>
+      h5,p{
+        color: chartreuse;
+      }
+    </style>
+    <h5 >User information</h5>
+    <p>ID:  {{UserInfo.user.id}}</p>
+    <p> Name: {{UserInfo.user.username}}</p>
+    <p> Email:  {{UserInfo.user.email}}</p>
+  </div>
+</div>

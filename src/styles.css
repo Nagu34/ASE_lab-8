@@ -2,9 +2,8 @@
 
 .loginbackground{
 
-  background: burlywood;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, rebeccapurple, yellow);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, cornflowerblue, pink); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: yellow;  /* fallback for old browsers */
+   /* Chrome 10-25, Safari 5.1-6 */
 
 }
 .center {
@@ -21,11 +20,11 @@
 }
 .new{
   padding-top: 70px;
-  padding-left: 100px;
+  padding-left: 150px;
 }
 .boxstyle{
 
-  border-radius: 55px;
+  border-radius: 1px;
   /*width: 200px;*/
   height: 250px;
   padding:2.2rem;
